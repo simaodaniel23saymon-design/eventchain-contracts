@@ -65,8 +65,20 @@ npx hardhat ignition deploy --network sepolia ignition/modules/Counter.ts
 ```
 
 
-"Smart Contracts para a plataforma EventChain. Deployed na rede Sepolia:
+# EventChain Contracts 🎟️
 
-TicketMarketplace: 0x2f8F311953FCa739173BdB7627051e4569e440fb
+Sistema descentralizado para criação de eventos e venda de ingressos em NFT.
 
-EventFactory: 0xd9eE3631C0003Cb97CAC1F6c8C2930c7aEbFB757"
+## 🚀 Deploys (Sepolia Testnet)
+
+Os contratos foram implantados e verificados:
+
+* **TicketMarketplace:** `0x2f8F311953FCa739173BdB7627051e4569e440fb`
+    * [Ver no Blockscout](https://eth-sepolia.blockscout.com/address/0x2f8F311953FCa739173BdB7627051e4569e440fb#code)
+* **EventFactory:** `0xd9eE3631C0003Cb97CAC1F6c8C2930c7aEbFB757`
+    * [Ver no Blockscout](https://eth-sepolia.blockscout.com/address/0xd9eE3631C0003Cb97CAC1F6c8C2930c7aEbFB757#code)
+
+## 🛠️ Tecnologias
+* Solidity 0.8.28
+* Hardhat 3
+* OpenZeppelin (ERC721)
